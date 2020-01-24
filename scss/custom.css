@@ -6,6 +6,10 @@ body {
   margin-left: 16px !important;
 }
 
+.detail h1 {
+  size: 3.75rem;
+}
+
 .navigation {
   font-family: "Oswald", serif !important;
 }
