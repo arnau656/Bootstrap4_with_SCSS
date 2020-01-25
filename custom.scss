@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+$body-bg: #ced4da;
+$hoverTitle: #f9faff;
+body {
+  font-family: 'EB Garamond', serif !important;
+  margin-left: 16px !important;
+}
+
+.detail{
+  div {
+    h1 {
+      size: 2.4rem * 1.5;
+    }
+  }
+  background-color: #e9e9e9;
+}
+.navigation{
+  font-family: 'Oswald', serif !important;
+}
+
+.colora{
+  color: #b8c6ac;
+}
+
+.colora:active{
+  color: #e9e9e9;
+}
+
+.colora:hover{
+  color: $hoverTitle;
+}
+
+.colorb{
+  color: #999baa;
+}
+
+.colorb:hover{
+  color: $hoverTitle;
+}
+
+.btn-primary{
+  color: white;
+  outline: 1px solid black;
+  background: grey;
+}
+@import "bootstrap";
