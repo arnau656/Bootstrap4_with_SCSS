@@ -6,8 +6,11 @@ body {
   margin-left: 16px !important;
 }
 
-.detail h1 {
-  size: 3.75rem;
+.detail {
+  background-color: #e9e9e9;
+}
+.detail div h1 {
+  size: 3.6rem;
 }
 
 .navigation {
@@ -32,6 +35,12 @@ body {
 
 .colorb:hover {
   color: #f9faff;
+}
+
+.btn-primary {
+  color: white;
+  outline: 1px solid black;
+  background: grey;
 }
 
 /*!
